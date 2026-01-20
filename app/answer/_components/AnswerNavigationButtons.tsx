@@ -47,6 +47,7 @@ export default function AnswerNavigationButtons({
         alignItems: 'center'
       }}>
         {/* 前へボタン */}
+      {/*
         <IconButton
           onClick={onPrevious}
           disabled={isFirstQuestion || isSubmitting}
@@ -62,6 +63,7 @@ export default function AnswerNavigationButtons({
         >
           <ArrowBackIcon />
         </IconButton>
+      */}
 
         {/* 中央のテキスト */}
         <Box sx={{ flex: 1, textAlign: 'center', px: 2 }}>
@@ -111,6 +113,7 @@ export default function AnswerNavigationButtons({
         </Box>
 
         {/* 退出ボタン */}
+      {/*
         <IconButton
           onClick={onComplete}
           sx={{ 
@@ -124,6 +127,7 @@ export default function AnswerNavigationButtons({
         >
           <LogoutIcon />
         </IconButton>
+      */}
       </Box>
     </Box>
   );
